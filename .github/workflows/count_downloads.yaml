@@ -11,10 +11,10 @@ jobs:
     steps:
       - 
         name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - 
         run: |
-          curl -s https://api.github.com/repos/manjaro-plasma/download/releases | egrep 'download_count'  | cut '-d:' -f 2 | sed 's/,/+/' | xargs echo | xargs -I N echo N 0  | bc >docs/_includes/download_count
+          curl -s https://api.github.com/repos/commonsourcecs/macer-kde-iso/releases | egrep 'download_count'  | cut '-d:' -f 2 | sed 's/,/+/' | xargs echo | xargs -I N echo N 0  | bc >docs/_includes/download_count
       -
         run: |
           git config --global user.name "Github Update Bot"
