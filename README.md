@@ -1,9 +1,9 @@
-# MaCeR KDE Editions
+# MaceR KDE Editions
 [![iso_build](https://github.com/commonsourcecs/macer-kde-iso/workflows/iso_build/badge.svg)](https://github.com/commonsourcecs/macer-kde-iso/actions)
 
 ## description
 
-KDE Plasma ISO for MaCeR (Manjaro Linux cscs edition - Recovery). 
+KDE Plasma ISO for MaceR (Manjaro linux cscs edition - Recovery). 
 
 These are automated builds currently for testing. 
 
